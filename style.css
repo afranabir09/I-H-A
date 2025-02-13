@@ -73,16 +73,16 @@
         background-image: url(WhatsApp\ Image\ 2025-02-11\ at\ 12.15.35_9ac6a9f3.jpg);
     }
     34%{
-        background-image: url(WhatsApp\ Image\ 2025-02-11\ at\ 12.15.36_6ee061ed.jpg);
+        background-image: url(WhatsApp\ Image\ 2025-02-13\ at\ 12.07.40_a100619f.jpg);
     }
     66%{
-        background-image: url(WhatsApp\ Image\ 2025-02-11\ at\ 12.15.36_6ee061ed.jpg);
+        background-image: url(WhatsApp\ Image\ 2025-02-13\ at\ 12.07.40_a100619f.jpg);
     }
     67%{
-        background-image: url(WhatsApp\ Image\ 2025-02-11\ at\ 12.15.36_740fe9af.jpg);
+        background-image: url(WhatsApp\ Image\ 2025-02-13\ at\ 12.08.47_b4623a0c.jpg);
     }
     100%{
-        background-image: url(WhatsApp\ Image\ 2025-02-11\ at\ 12.15.36_740fe9af.jpg);
+        background-image: url(WhatsApp\ Image\ 2025-02-13\ at\ 12.08.47_b4623a0c.jpg);
     }
 }
 
@@ -97,7 +97,7 @@
 
 .menu{
     text-align: center;
-    margin-top: 2px;
+    margin-top: 8px;
 }
 
 .menu a{
@@ -118,7 +118,6 @@
     height: auto;
     width: 100% ;
     border: 1px solid rgba(0, 0, 0, 0);
-    align-items: center;
 }
 
 .box1{
@@ -126,7 +125,7 @@
     height: auto;
     width: 300px ;
     border: 1px solid rgba(0, 0, 0, 0);
-    margin: 25px auto;
+    margin: 15px auto;
 }
 
 .box1 h1{
@@ -141,7 +140,7 @@
     margin: 15px;
  }
 .box2{
-    margin: auto;
+    margin: 13px auto;
     height:auto;
     width: 600px;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -167,6 +166,88 @@
 }
 .box2 th{
     padding: 5px;
+}
+.sub-box a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/*card-box Section*/
+
+.card-box{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-card{
+    height: 135px;
+    width: 235px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-card:hover{
+    transform: scale(1.03);
+}
+
+.box-card h2{
+    background-color: white;
+    font-size: 18px;
+    color: rgb(140, 0, 255);
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+.box-card h2:hover{
+    color: rgb(84, 0, 153);
+    letter-spacing: 1.5px;
+}
+.box-card i{
+    color: rgb(140, 0, 255);
+    font-size: 55px;
+    margin: 12px;
+}
+.box-card a{
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(140, 0, 255);
+    padding: 5px;
+    color: rgb(140, 0, 255);
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.box-card a:hover{
+    background-color: rgb(140, 0, 255);
+    color: white;
+    border: 0;
+}
+.box-card ol{
+    text-align: left;
+    margin-left: 12px;
+    margin: 7px;
+    list-style-type: circle;
+}
+.box-card ol li{
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+.box-card ol li:hover{
+    letter-spacing: 1.5px;
 }
 
 
